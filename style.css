@@ -1,0 +1,52 @@
+body {
+    background-color: #570707;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.profile-picture {
+    display: block;
+    margin: 10% auto 0;
+    height: auto;
+    max-width: 100px;
+    border-radius: 50%;
+    border: 5px solid white; /* Adicione essa linha para criar a borda branca em forma de círculo */
+}
+
+.profile-name {
+    text-align: center;
+    padding: 25px;
+    font-size: 35px;
+    color: white;
+}
+
+main {
+    text-align: center;
+}
+
+.links {
+    border: 1px solid white;
+    background-color: white;
+    border-width: 2px;
+    padding: 20px;
+    width: 290px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: color 1s, background-color 1s;
+}
+
+.links:hover {
+    color: white;
+    background-color: black;
+}
